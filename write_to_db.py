@@ -1,10 +1,10 @@
 import psycopg2
 
 con = psycopg2.connect(
-    database="data_mining",
+    database="postgres",
     user="postgres",
     password="80pufuda",
-    host="127.0.0.1",
+    host="database-1.cwnsswvbiyqw.us-east-1.rds.amazonaws.com",
     port="5432"
 )
 
